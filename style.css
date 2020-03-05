@@ -6,24 +6,29 @@
 }
 /* debug -----*/
 [class*="col-"]  {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 /* fine debug */
 /* inizio HEADER --------------------*/
 header {
   background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+  background-size: auto;
+  background-position: bottom;
 }
 /* inizio testo sx header -----*/
 #header_2 {
   color:white;
   margin-top:50px;
-  padding:190px 0;
+  padding:120px 0;
 }
 #header_2 h1{
     font-size: 62px;
     line-height: 1.18;
     letter-spacing: 1.2px;
     font-weight: 600;
+}
+#header_2_testo {
+  margin-top:90px;
 }
 #header_2_testo p {
   font-size: 24px;
@@ -36,8 +41,100 @@ header {
 /* inizio  form dx  header  ----*/
 #header_2_form {
   background-color: white;
+  padding: 32px;
+  border-radius: 5px;
+  margin-left: 70px;
+
 }
+#header_2_form form input{
+  height: 48px;
+}
+#header_2_form h2{
+  color:#031b4e;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 8px;
+  margin-bottom:32px;
+  font-size: 30px;
+}
+#header_2_form button {
+  width: 100%;
+  background-color: #0069ff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+}
+#header_2_form button:hover {
+  background-color: #1633ff;
+}
+.divis {
+  position: relative;
+  text-align: center;
+}
+#divisore {
+  color:#5b6987;
+  font-size: 16px;
+  letter-spacing: .05em;
+  width: 50%;
+}
+_#divisore::before {
+  content:"";
+  border-top:2px solid  red;
+  width: 200px;
+  height: 5px;
+  position: absolute;
+  left: 0px;
+}
+
+.div-divisore {
+  border-bottom:2px;
+}
+
+#divisore1 {
+  color:red;
+}
+
+#divisore1::before {
+  content:"";
+  border-top:2px solid red;
+}
+
+
+/* #divisore {
+  color:#5b6987;
+  text-align: center;
+  font-size: 16px;
+  padding:12px 0;
+
+  letter-spacing: .05em;
+}
+#divisore:before {
+  content: "";
+  border-bottom:3px solid #e5e8ed;
+  width: 20px;
+  height: 5px;
+} */
 /* fine    form dx  header  ----*/
+/* fine HEADER --------------------------*/
+
+/* inizio SEZIONE PRIMA -----------------*/
+#sez_1 h3 {
+  text-align: center;
+  opacity: .4;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+  margin-top: 50px;
+}
+/* fine   SEZIONE PRIMA -----------------*/
 
 
 
