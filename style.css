@@ -95,6 +95,14 @@ header {
 #google_button a {
   color: rgba(3,27,78,.7)
 }
+#google_button + p {
+  color:rgba(3,27,78,.7);
+  text-align: center;
+  margin-top: 14px;
+}
+#google_button + p > a {
+  text-decoration: underline;
+}
 
 
 
@@ -102,6 +110,10 @@ header {
 /* fine HEADER --------------------------*/
 
 /* inizio SEZIONE PRIMA -----------------*/
+#sez_1{
+  padding: 40px 0;
+  background-color: #f3f5f9
+}
 #sez_1 h3 {
   text-align: center;
   opacity: .4;
@@ -109,7 +121,7 @@ header {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 16px;
-  margin-top: 50px;
+
 }
 /* inizio LOGHI sez 1 */
 #sez_1 img {
@@ -122,17 +134,79 @@ header {
   height: 65px;
   margin-top: 65px;
 }
-#google_button + p {
-  color:rgba(3,27,78,.7);
+#sez_1_chiusura {
   text-align: center;
-  margin-top: 14px;
+  margin-top: 35px;
 }
-#google_button + p > a {
-  text-decoration: underline;
+#sez_1_chiusura a {
+  color: #0069ff;
+  font-weight: bolder;
+  font-size: large;
 }
+#sez_1_chiusura a::after {
+  content: "\f105";
+  font: normal normal normal 14px/1 FontAwesome;
+  padding-left: 16px;
+  text-decoration:none;
 
+
+}
 /* fine LOGHI sez 1 */
 /* fine   SEZIONE PRIMA -----------------*/
+/* inizio SEZIONE SECONDA ---------------*/
+/* inizio titolo-------------- */
+#sez_2_titolo {
+  color: rgba(3,27,78,.7);
+  padding: 60px 0;
+  text-align: center;
+}
+#sez_2_titolo h2 {
+  font-weight: 800;
+  font-size: 41px;
+  letter-spacing: 1.2px;
+}
+#sez_2_titolo p {
+  font-size: 20px;
+  letter-spacing: .3px;
+}
+/* fine   titolo-------------- */
+/* inizio main sez 2 ----------*/
+#sez_2_lista li {
+  border-top: none;
+  border-right: none;
+  border-bottom:none;
+  border-left: 2px solid rgba(3,27,78,.2);
+  border-radius: 0;
+  color: rgba(3,27,78,.7);
+  font-size: 20px;
+  letter-spacing: .6px;
+  padding:15px;
+  background-color: white;
+
+}
+#sez_2_lista {
+  padding-left: 152px;
+}
+.sez_2_consigli > i{
+  font-size: -webkit-xxx-large;
+  color: #0069ff;
+}
+.sez_2_consigli h4 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0;
+  color: #031b4e;
+  padding-top: 5px;
+}
+.sez_2_consigli p {
+  margin-top: 16px;
+  color: rgba(3,27,78,.7);
+  letter-spacing: .5px;
+  font-size: larger;
+  line-height: 1.5;
+}
+}
+
 
 
 
