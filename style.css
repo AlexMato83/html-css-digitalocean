@@ -4,15 +4,46 @@
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
-
+/* debug -----*/
 [class*="col-"]  {
   border: 1px solid black;
-
 }
-
-#header_2 {
+/* fine debug */
+/* inizio HEADER --------------------*/
+header {
   background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
 }
+/* inizio testo sx header -----*/
+#header_2 {
+  color:white;
+  margin-top:50px;
+  padding:190px 0;
+}
+#header_2 h1{
+    font-size: 62px;
+    line-height: 1.18;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+#header_2_testo p {
+  font-size: 24px;
+  opacity: .8;
+  line-height: 1.5;
+  margin-top: 28px;
+  letter-spacing: 1.2px;
+}
+/* fine    testo sx header -----*/
+/* inizio  form dx  header  ----*/
+#header_2_form {
+  background-color: white;
+}
+/* fine    form dx  header  ----*/
+
+
+
+
+
+
 
 
 /* @media (min-width:992px) {
