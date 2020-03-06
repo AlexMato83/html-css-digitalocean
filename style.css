@@ -43,7 +43,7 @@ header {
   background-color: white;
   padding: 32px;
   border-radius: 5px;
-  margin-left: 70px;
+
 
 }
 #header_2_form form input{
@@ -212,6 +212,10 @@ header {
 }
 /* fine SEZIONE SECONDA -----------*/
 /* inizio SEZIONE TERZA -----------*/
+#sez_3 {
+  background-color: #f3f5f9;
+  padding:8%;
+}
 #sez_3 img {
   width:100%;
 }
@@ -222,6 +226,20 @@ header {
   .frecce {
     display: none;
   }
+}
+.pallini {
+  text-align: center;
+  color: #0069ff;
+}
+#sez_3 span {
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 7px;
+  color: #031b4e;
+  font-size: medium;
+  font-weight: bolder;
 }
 /* fine   SEZIONE TERZA -----------*/
 
