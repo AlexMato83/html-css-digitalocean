@@ -253,6 +253,19 @@ header {
   padding-left: 11px;
 }
 /* fine   SEZIONE QUARTA ----------*/
+/* inizio SEZIONE QUINTA ----------*/
+#sez_5 h2 {
+  font-weight: 800;
+  font-size: 39px;
+  text-align: center;
+  color: #000;
+}
+.sez_5_tabelle > table > tbody > tr:first-child > th,
+.sez_5_tabelle > table > tbody > tr:first-child > td {
+  border-top: 0;
+}
+
+/* fine   SEZIONE QUINTA ----------*/
 
 
 
