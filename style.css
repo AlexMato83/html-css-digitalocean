@@ -148,24 +148,31 @@ header {
   font: normal normal normal 14px/1 FontAwesome;
   padding-left: 16px;
   text-decoration:none;
-
-
 }
+@media screen and (max-width:767px) {
+  #sez_1 img {
+    width: auto;
+  }
+}
+
 /* fine LOGHI sez 1 */
 /* fine   SEZIONE PRIMA -----------------*/
 /* inizio SEZIONE SECONDA ---------------*/
+#sez_2 {
+  padding:70px;
+}
 /* inizio titolo-------------- */
-#sez_2_titolo {
+.sez_2_titolo {
   color: rgba(3,27,78,.7);
-  padding: 60px 0;
+  padding-bottom:60px;
   text-align: center;
 }
-#sez_2_titolo h2 {
+.sez_2_titolo h2 {
   font-weight: 800;
   font-size: 41px;
   letter-spacing: 1.2px;
 }
-#sez_2_titolo p {
+.sez_2_titolo p {
   font-size: 20px;
   letter-spacing: .3px;
 }
@@ -205,7 +212,17 @@ header {
 }
 /* fine SEZIONE SECONDA -----------*/
 /* inizio SEZIONE TERZA -----------*/
-
+#sez_3 img {
+  width:100%;
+}
+.frecce {
+  font-size: -webkit-xxx-large;
+}
+@@media screen and (max-width:767) {
+  .frecce {
+    display: none;
+  }
+}
 /* fine   SEZIONE TERZA -----------*/
 
 
