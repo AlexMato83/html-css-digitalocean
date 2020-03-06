@@ -201,7 +201,7 @@ header {
   font-size: 20px;
   margin-top: 0;
   color: #031b4e;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 .sez_2_consigli p {
   margin-top: 16px;
@@ -242,6 +242,19 @@ header {
   font-weight: bolder;
 }
 /* fine   SEZIONE TERZA -----------*/
+/* inizio SEZIONE QUARTA ----------*/
+#sez_4 {
+  padding:8% 0;
+}
+.sez_4_icone::after {
+  content: "\f054";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: small;
+  padding-left: 11px;
+}
+/* fine   SEZIONE QUARTA ----------*/
+
+
 
 
 
